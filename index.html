@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JESTER</title>
+    <link rel="icon" href="./imgs/Avatar.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0028defbac.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <div class="container">
+        <a href="./imgs/Avatar.png" target="_blank" title="Goes to Logo" id="logo">JESTER</a>
+        <ul class="menu" style="gap: 70px; margin-right: 15%">
+          <li><a href="#top" id="menu-active">Home</a></li>
+          <li>
+            <a href="#achievements">Achievements</a>
+            <!-- <i class="fa-solid fa-chevron-down"></i> -->
+          </li>
+          <li>
+            <a href="#services">Services</a>
+            <!-- <i class="fa-solid fa-chevron-down"></i> -->
+          </li>
+          <li><a href="#about-me-group">About</a></li>
+        </ul>
+        <input
+          type="text"
+          style="
+            display: none;
+            background-color: white;
+            border: none;
+            color: rgb(0, 0, 0);
+            padding: 5px;
+            margin-right: -55px;
+            border-radius: 25px;
+          "
+        />
+        <a style="display: none" href="./"
+          ><i class="fa-brands fa-searchengin"></i
+        ></a>
+      </div>
+    </section>
+    <section class="main-avatar">
+      <div class="avatar-container">
+        <div class="main-left">
+          <p id="l1">Hello Everyone!!!</p>
+          <p id="l2">
+            <span style="color: blue">I'm</span>
+            <span style="color: rgb(13, 102, 13)">Jester</span>
+          </p>
+          <p id="l3">Niset Year 1</p>
+        </div>
+        <div class="main-right" style="margin-top: 10px">
+          <img src="./imgs/Rakyruu.png" alt="Avatar" id="avatar" />
+          <div id="background-circle"></div>
+        </div>
+      </div>
+    </section>
+    <section class="achievements" id="achievements">
+      <h1 class="header-title"><center>Achievements</center></h1>
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="./imgs/photo_2_2024-06-23_09-40-03.jpg"
+            alt="Achievement1"
+            id="Gamer1"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="./imgs/photo_4_2024-06-23_09-40-03.jpg"
+            alt="Achievement2"
+            id="Gamer2"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="./imgs/photo_5_2024-06-23_09-40-03.jpg"
+            alt="Achievement3"
+            id="Gamer3"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="./imgs/photo_8_2024-06-23_09-40-03.jpg"
+            alt="Achievement4"
+            id="Gamer4"
+          />
+        </div>
+      </div>
+    </section>
+    <div id="about-me-group" style="height: 3em"></div>
+    <section class="about-me-group">
+      <h1 class="header-title">About Me</h1>
+      <div class="aboutMe-text">
+        <div class="main-right">
+          <img src="./imgs/Virak.png" alt="Avatar" id="avatar" />
+          <div id="background-circle"></div>
+        </div>
+        <p class="about-text" style="margin-top: 80px">
+          Hello Everyone!! My name is Jester I'm a player Mobile Legend Bang
+          Bang! I've Played Mobile Legend Bang Bang for 5 years since 2019. I
+          really Like playing MLBB and I have alot of memories with MLBB.
+        </p>
+      </div>
+      <div class="about-btn">
+        <a href="./Jester CV.pdf" target="_blank" title="Go to Download CV!"
+          ><button id="download-cv-btn">Download CV</button></a
+        >
+        <button id="hire-me-btn">Hire Me</button>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h1 class="header-title"><center>Services</center></h1>
+      <div class="card-group-service">
+        <div class="card">
+          <img
+            src="./imgs/photo_1_2024-06-23_09-40-03.jpg"
+            alt="Service1"
+            id="serVice1"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="./imgs/photo_3_2024-06-23_09-40-03.jpg"
+            alt="Service2"
+            id="serVice2"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="./imgs/photo_6_2024-06-23_09-40-03.jpg"
+            alt="Service3"
+            id="serVice3"
+          />
+        </div>
+        <div class="card">
+          <img
+            src="./imgs/photo_7_2024-06-23_09-40-03.jpg"
+            alt="Service4"
+            id="serVice4"
+          />
+        </div>
+      </div>
+    </section>
+    <h1 id="header-title"><center>Blog</center></h1>
+    <section class="blog-group">
+      <div class="blog-post">
+        <div class="blog-card">
+          <!-- <img src="./imgs/photo_9_2024-06-23_10-15-14.jpg" alt="Blog1" id="blog1" /> -->
+          <a href="./"
+            ><video
+              controls
+              muted
+              loop
+              autoplay
+              src="./videos/chouFreestyle.mp4"
+              type="video/mp4"
+              id="blog1"
+            ></video
+          ></a>
+        </div>
+        <div class="blog-content">
+          <p class="blog-title">At University</p>
+          <br />
+          <p class="blog-text">
+            Hello! My name is Jester I'm a player who play role Roamer,
+            Experience Lane, Gold Lane and Jungler. At the Left is picture that
+            take at University.
+          </p>
+        </div>
+      </div>
+      <div class="blog-post">
+        <div class="blog-card">
+          <!-- <img src="./imgs/photo_10_2024-06-23_10-15-14.jpg" alt="Blog2" id="blog2" /> -->
+          <a href="./"
+            ><video
+              controls
+              muted
+              loop
+              autoplay
+              src="./videos/Gusion.mp4"
+              type="video/mp4"
+              id="blog2"
+            ></video
+          ></a>
+        </div>
+        <div class="blog-content">
+          <p class="blog-title">At High School</p>
+          <br />
+          <p class="blog-text">
+            Hello! My name is Jester I'm a player who play role Roamer,
+            Experience Lane, Gold Lane and Jungler. At the Left is picture that
+            take at High School.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="social">
+        <a href="https://www.facebook.com/profile"
+          ><i class="fa-brands fa-facebook" style="color: #1877f2"></i
+        ></a>
+        <a href="/"
+          ><i class="fa-brands fa-youtube" style="color: #ff0000"></i
+        ></a>
+        <a href="/">
+          <i class="fa-brands fa-telegram" style="color: #08c"></i
+        ></a>
+        <a href="/"
+          ><i class="fa-brands fa-tiktok" style="color: rgb(255, 0, 80)"></i
+        ></a>
+      </div>
+      <p id="copyright">© 2024 JESTER. All rights reserved.</p>
+    </section>
+  </body>
+</html>
