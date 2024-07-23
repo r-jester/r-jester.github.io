@@ -38,6 +38,7 @@
             <!-- <i class="fa-solid fa-chevron-down"></i> -->
           </li>
           <li><a href="#about-me-group">About</a></li>
+          <li><button style="width: 2rem; height: 1.5rem; border-radius: 10%; border: 2px inset grey; align-items: center; justify-content: center; background-color: rgb(13, 98, 98);" type="button" id="dark-mode" onclick="darkMode()">🌙</button></li>
         </ul>
         <input
           type="text"
@@ -56,7 +57,7 @@
         ></a>
       </div>
     </section>
-    <section class="main-avatar">
+    <section class="main-avatar" id="main-avatar">
       <div class="avatar-container">
         <div class="main-left">
           <p id="l1">Hello Everyone!!!</p>
@@ -231,18 +232,5 @@
       <p id="copyright">© 2024 JESTER. All rights reserved.</p>
     </section>
   </body>
-  <script>
-    let date = new Date();
-    let x = date.getHours();
-    let z = "From Jester.";
-    if (x >= 2 && x < 12) {
-      document.getElementById("l4").innerHTML = "Good Morning! " + z;
-    } else if (x >= 12 && x < 17) {
-      document.getElementById("l4").innerHTML = "Good Afternoon! " + z;
-    } else if (x >= 17 && x < 23) {
-      document.getElementById("l4").innerHTML = "Good Evening! " + z;
-    } else {
-      document.getElementById("l4").innerHTML = "Good Night! " + z;
-    }
-  </script>
+  <script src="script.js"></script>
 </html>

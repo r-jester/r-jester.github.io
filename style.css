@@ -352,3 +352,10 @@
   font-size: 30px;
   margin: 30px auto;
 }
+#dark-mode {
+  display: flex;
+  background-color: rgb(159, 217, 217);
+}
+#dark-mode:hover {
+  cursor: pointer;
+}
